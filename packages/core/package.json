@@ -1,0 +1,22 @@
+{
+  "name": "@rainy-cli-dev/core",
+  "version": "1.0.0",
+  "description": "rainy-cli-dev core",
+  "author": "卿乃元 <qingnaiyuan@tuhu.cn>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "node ./__tests__/core.test.js"
+  },
+  "dependencies": {
+    "@imooc-cli/utils": "^1.1.3"
+  }
+}
