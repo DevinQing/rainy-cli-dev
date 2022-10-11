@@ -6,6 +6,9 @@
   "homepage": "",
   "license": "ISC",
   "main": "lib/core.js",
+  "bin": {
+    "rainy-cli-dev": "bin/index.js"
+  },
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -18,5 +21,6 @@
   },
   "dependencies": {
     "@imooc-cli/utils": "^1.1.3"
-  }
+  },
+  "gitHead": "85009aac5bc3c210944b52a9117ea7ddd4178353"
 }
